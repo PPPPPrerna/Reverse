@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="11" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="620" started-at="2020-07-22T10:12:52 IST" finished-at="2020-07-22T10:12:52 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="A.tcs()[pri:0, instance:piku.A@eec5a4a]" name="tcs" class="piku.A"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="433" started-at="2020-07-22T10:12:52 IST" finished-at="2020-07-22T10:12:52 IST">
+      <class name="piku.A">
+        <test-method status="PASS" signature="tca()[pri:0, instance:piku.A@eec5a4a]" name="tca" duration-ms="88" started-at="2020-07-22T10:12:52 IST" finished-at="2020-07-22T10:12:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tca -->
+        <test-method status="PASS" signature="tcs()[pri:0, instance:piku.A@eec5a4a]" name="tcs" duration-ms="16" started-at="2020-07-22T10:12:52 IST" finished-at="2020-07-22T10:12:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcs -->
+      </class> <!-- piku.A -->
+      <class name="piku.B">
+        <test-method status="PASS" signature="aa()[pri:0, instance:piku.B@2b2948e2]" name="aa" duration-ms="0" started-at="2020-07-22T10:12:52 IST" finished-at="2020-07-22T10:12:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aa -->
+        <test-method status="PASS" signature="aaa()[pri:0, instance:piku.B@2b2948e2]" name="aaa" duration-ms="15" started-at="2020-07-22T10:12:52 IST" finished-at="2020-07-22T10:12:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaa -->
+        <test-method status="PASS" signature="hjk(java.lang.String, java.lang.String)[pri:0, instance:piku.B@2b2948e2]" name="hjk" duration-ms="15" started-at="2020-07-22T10:12:52 IST" data-provider="getData" finished-at="2020-07-22T10:12:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[first]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hjk -->
+        <test-method status="PASS" signature="hjk(java.lang.String, java.lang.String)[pri:0, instance:piku.B@2b2948e2]" name="hjk" duration-ms="0" started-at="2020-07-22T10:12:52 IST" data-provider="getData" finished-at="2020-07-22T10:12:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secod]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[seco]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hjk -->
+        <test-method status="PASS" signature="hjk(java.lang.String, java.lang.String)[pri:0, instance:piku.B@2b2948e2]" name="hjk" duration-ms="0" started-at="2020-07-22T10:12:52 IST" data-provider="getData" finished-at="2020-07-22T10:12:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hjk -->
+      </class> <!-- piku.B -->
+    </test> <!-- Test -->
+    <test name="Test1" duration-ms="46" started-at="2020-07-22T10:12:52 IST" finished-at="2020-07-22T10:12:52 IST">
+      <class name="piku.C">
+        <test-method status="PASS" signature="samsung()[pri:0, instance:piku.C@49fc609f]" name="samsung" duration-ms="16" started-at="2020-07-22T10:12:52 IST" finished-at="2020-07-22T10:12:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samsung -->
+      </class> <!-- piku.C -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
